@@ -12,4 +12,4 @@ https://www.linkedin.com/in/sindhuprasad
 
 ### Contact me
 
-[email@domain.com](mailto:sindhu.it@gmail.com)
+[sindhu.it@gmail.com](mailto:sindhu.it@gmail.com)
