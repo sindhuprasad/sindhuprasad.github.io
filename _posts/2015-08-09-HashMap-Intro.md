@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: HashMap in Java!
 ---
 
 # HashMap in Java
