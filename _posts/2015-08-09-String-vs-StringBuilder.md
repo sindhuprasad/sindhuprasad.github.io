@@ -4,6 +4,7 @@ title: String vs StringBuilder
 ---
 
 Sample 1
+
 ```
 String result = "";
 for (int i=0;i<1000;i++) {
@@ -12,6 +13,7 @@ for (int i=0;i<1000;i++) {
 ```
 
 Sample 2
+
 ```
 StringBuilder sb = new StringBuilder();
 for (int i=0;i<1000;i++) {
