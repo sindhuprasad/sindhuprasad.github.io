@@ -17,18 +17,9 @@ avatar: https://media.licdn.com/media/AAEAAQAAAAAAAAJUAAAAJDU5YzkyNWU1LTY4YmItNG
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email:sindhu.it@gmail.com
-  facebook:
-  flickr:
+  email: sindhu.it@gmail.com
   github: sindhuprasad
-  instagram:
   linkedin:https://www.linkedin.com/in/sindhuprasad
-  pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
