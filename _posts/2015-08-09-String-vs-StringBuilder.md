@@ -5,7 +5,7 @@ title: String vs StringBuilder
 
 Sample 1
 
-```
+```Java
 String result = "";
 for (int i=0;i<1000;i++) {
     result = result + "hello";
@@ -14,7 +14,7 @@ for (int i=0;i<1000;i++) {
 
 Sample 2
 
-```
+```Java
 StringBuilder sb = new StringBuilder();
 for (int i=0;i<1000;i++) {
     sb.append("hello");
