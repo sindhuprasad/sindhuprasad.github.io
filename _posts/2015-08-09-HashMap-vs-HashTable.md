@@ -3,7 +3,7 @@ layout: post
 title: HashMap vs HashTable
 ---
 
-**What is the difference between a HashMap and HashTable?**
+What is the difference between a HashMap and HashTable?
 
 1. `java.util.HashMap` allows null keys and values whereas a `java.util.Hashtable` does not.
 2. `HashMap` is unsynchronized and therefore much faster. However, its not suitable when there are multiple threads inserting/getting from the map. `HashTable` is synchronized and its slower because of overhead involved in maintaining locks.
