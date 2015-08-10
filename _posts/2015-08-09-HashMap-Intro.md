@@ -3,8 +3,6 @@ layout: post
 title: HashMap in Java!
 ---
 
-# HashMap in Java
-
 HashMap is a very widely used data structure in java to map keys to values. It can provide O(1) access and insertion time. However, HashMap maintains no particular order of the key-values inserted. Here is how it briefly works. A HashMap internally uses an array to provide O(1) access time. Each location in this array provides a bucket. A bucket can store multiple (key,value) pairs. To describe briefly, here is what happens when a (key,value) pair is inserted. 
 
 1. hashCode of key object is computed using key.hashCode()
