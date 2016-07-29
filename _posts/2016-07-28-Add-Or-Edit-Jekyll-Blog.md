@@ -3,6 +3,7 @@ layout: post
 title: How to add/edit a post in your jekyll blog?
 ---
 
+This post describes how to make changes to your jekyll blog. It can be done locally, where the github pages repo is local to your machine. Or, changes can also can done directly on github. The preview feature on github while adding a post makes it very easy to verify the format before it goes live in github.io website.
 
 
 ###Local Development 
