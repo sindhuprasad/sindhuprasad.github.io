@@ -1,3 +1,8 @@
+---
+layout: post
+title: What I learnt about Object Oriented (OO) programming in Java?
+---
+
 Three concepts central to OO are encapsulation, inheritance and polymorphism. When I was beginner to OO, I thought I would use all these equally while coding. However, I used encapsulation and polymorphism more often than inheritance. 
 
 **Encapsulation:**
