@@ -3,7 +3,7 @@ layout: post
 title: What I learnt about Object Oriented (OO) programming in Java?
 ---
 
-Three concepts central to OO are encapsulation, inheritance and polymorphism. When I was beginner to OO, I thought I would use all these equally while coding. However, I used encapsulation and polymorphism more often than inheritance. 
+Three concepts central to OOP are encapsulation, inheritance and polymorphism. When I was beginner to OO, I thought I would use all these equally while coding. However, I used encapsulation and polymorphism more often than inheritance. 
 
 **Encapsulation:**
 
@@ -78,6 +78,7 @@ class Rectangle {
 ```
 
 If I have to design a Square class using Rectangle, I don't need to extend the Rectangle class as shown below,
+
 ```Java
 class Square extends Rectangle{
 	
@@ -87,7 +88,7 @@ class Square extends Rectangle{
 Instead, the Square object can easily be created using Rectangle class by avoiding inheritance. 
 
 ```Java
-class Rectange {
+class Rectangle {
 	public Rectangle(int height, int width){
 		..
 	}
