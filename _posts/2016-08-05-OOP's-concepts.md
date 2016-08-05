@@ -85,12 +85,12 @@ class Square extends Rectangle{
 ```
 
 Instead, the Square object can easily be created using Rectangle class by avoiding inheritance. 
+
 ```Java
 class Rectange {
-	public Rectange(int height, int width){
+	public Rectangle(int height, int width){
 		..
 	}
-	
 
 	...
 	Rectangle createSquare(int length){
