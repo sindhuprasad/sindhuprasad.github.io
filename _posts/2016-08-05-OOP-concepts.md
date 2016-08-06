@@ -9,6 +9,7 @@ Three concepts central to OOP are encapsulation, inheritance and polymorphism. W
 
 Encapsulation is basically hiding data and provide behaviours around it. For example,
 lets say I am designing a Triangle class,
+
 ```Java
 class Triangle {
 	private double height, base;
