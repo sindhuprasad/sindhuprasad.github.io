@@ -7,8 +7,8 @@ Three concepts central to OOP are encapsulation, inheritance and polymorphism. W
 
 **Encapsulation:**
 
-Encapsulation is basically hiding data and provide behaviours around it. For example,
-lets say I am designing a Triangle class,
+Encapsulation is basically hiding data and providing behaviours around it. For example,
+here is a Triangle class,
 
 ```Java
 class Triangle {
@@ -26,11 +26,11 @@ class Triangle {
 ```
 
 
-Notice how I have not exposed height and base fields of Triangle through getters and setters. Because, the code that uses the above triangle object needs the height and base fields only to calculate the area. That behavior can easily be provided by the triangle class itself through the area method. This is encapsulation.
+I have not exposed height and base fields of Triangle through getters and setters. Because, the code that uses the above triangle object needs the height and base fields only to calculate the area. That behavior can easily be provided by the triangle class itself through the area method. This is encapsulation.
 
 **Polymorphism:**
 
-Polymorphism is ability to take many forms. When different methods of a class have same name but different signatures, its compile time polymorphism. Another flavor is the runtime polymorphism. Here is an example to demonstrate run-time polymorphism,
+Polymorphism is ability to take many forms. When different methods of a class have same name but different signatures, its compile time polymorphism. Another flavor is the runtime polymorphism. Here is an example to demonstrate runtime polymorphism,
 
 ```Java
 class Person {
@@ -59,7 +59,7 @@ Collections.sort(people, new AgeComparator());
 Collections.sort(people, new HeightComparator());
 ```
 
-Notice, how the sort method of collection uses the compare method for internal sorting. The actual object whose compare method is called is resolved at runtime i.e The sort method in Collector does not know the exact object whose compare method is called until runtime.
+The sort method of collection uses the compare method for internal sorting. The actual object whose compare method is called is resolved at runtime i.e The sort method in Collector does not know the exact object whose compare method is called until runtime.
 
 **Inheritance:**
 
@@ -69,7 +69,7 @@ class Smartphone extends Phone {
 	...
 }
 ```
-Java does not allow multiple inheritance, i.e a class cannot extend from multiple classes. Avoid inheritance unless really needed. Take the following example,
+Java does not allow multiple inheritance, i.e a class cannot extend from multiple classes. I tend to avoid inheritance unless really needed. Consider this example of a Rectangle class,
 
 ```Java
 class Rectangle {
