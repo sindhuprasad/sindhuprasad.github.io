@@ -17,7 +17,7 @@ Here are some things to keep in mind while using HashMap.
 - If 2 objects are equal (== or `equal` method returns true), their hash code must be same
 - If 2 objects have same hash code, that does not mean they are always equal
 
-If a custom object is being used as a key for a HashMap, its always important to implement `equals` and `hashCode` method that satisfies the above contract.
+If a custom class object is being used as a key for a HashMap, its always important to implement `equals` and `hashCode` method that satisfies the above contract.
 
 ```
 public boolean equals(Object o)
